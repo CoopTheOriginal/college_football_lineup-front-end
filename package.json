@@ -1,0 +1,39 @@
+{
+  "name": "college_football_lineup-frontend",
+  "version": "1.0.0",
+  "description": "Front-end for the College Football Lineup App",
+  "main": "app.js",
+  "scripts": {
+    "start": "serve dist",
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "engines": {
+    "node": "6.10.3",
+    "npm": "5.4.2"
+  },
+  "author": "Zack Cooper",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "blaze": "^3.5.2",
+    "bootflat": "^2.0.4",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.5.3",
+    "request": "^2.83.0",
+    "serve": "^6.2.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.1.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "html-webpack-plugin": "^2.30.1",
+    "image-webpack-loader": "^3.4.2",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}

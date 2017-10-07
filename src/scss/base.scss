@@ -1,0 +1,45 @@
+@import '~blaze/dist/blaze.min.css';
+@import '~blaze/dist/blaze.colors.min.css';
+@import url('https://fonts.googleapis.com/css?family=Exo+2:300');
+
+$font-stack: Helvetica, sans-serif;
+
+$grey: #3f3f3d;
+$blue-grey: #b0bec5;
+$blue: #0c7fda;
+$white: #f0f0f0;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  background-color: $white;
+  font-family: 'Exo 2', sans-serif;
+}
+
+body {
+
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 0 1em;
+  background: $blue-grey;
+  width: 100%;
+}
+
+a {
+  pointer-events:none;
+}
+
+h1 {
+  text-align: center;
+  color: $blue;
+}
+
