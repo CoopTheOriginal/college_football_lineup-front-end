@@ -6,8 +6,8 @@ $font-stack: Helvetica, sans-serif;
 
 $grey: #3f3f3d;
 $blue-grey: #b0bec5;
-$blue: #0c7fda;
-$white: #f0f0f0;
+$blue: #0966af;
+$white: #cad4d8;
 
 *,
 *::before,
@@ -40,6 +40,10 @@ a {
 
 h1 {
   text-align: center;
-  color: $blue;
 }
 
+.link {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
